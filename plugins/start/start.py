@@ -55,4 +55,3 @@ def setup(client):
         await query.message.edit(welcome_text(), reply_markup=main_keyboard())
 
     log.info("✓ Handler /start dan menu utama terdaftar.")
-

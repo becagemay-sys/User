@@ -1,0 +1,25 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "gitsafe-backup"]
+	url = git://gitsafe:5418/backup.git
+	fetch = +refs/heads/*:refs/remotes/gitsafe-backup/*
+	skipFetchAll = true
+	lfsurl = http://gitsafe:5419
+[remote "origin"]
+	url = https://github.com/becagemay-sys/User.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
+[lfs "http://gitsafe:5419"]
+	locksverify = false
+[lfs "https://github.com/zahirilputrsridwan-alt/Ibeks-Userbot.git/info/lfs"]
+	access = basic
+[remote "old-origin"]
+	url = https://github.com/becagemay-sys/User
+	fetch = +refs/heads/*:refs/remotes/old-origin/*
+[lfs "https://github.com/becagemay-sys/BENGBOT.git/info/lfs"]
+	access = basic

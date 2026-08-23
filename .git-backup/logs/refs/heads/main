@@ -1,0 +1,30 @@
+0000000000000000000000000000000000000000 f8daf062ce586946bd4ca83134da5a8880720341 pideg74308sep <63312073-pideg74308sep@users.noreply.replit.com> 1785757560 +0000	branch: Created from origin/main
+f8daf062ce586946bd4ca83134da5a8880720341 4ff8b8888ca5400fec72b583f1ae82413804c150 Replit Agent <agent@replit.com> 1785818764 +0000	commit: Update database schema and state
+4ff8b8888ca5400fec72b583f1ae82413804c150 4204d6f0acffeb42f3c8d3dcbff11fc6453f62b6 Replit Agent <agent@replit.com> 1785819460 +0000	commit: Update manager plugins and database schema
+4204d6f0acffeb42f3c8d3dcbff11fc6453f62b6 ed38dc5719925b97124000ecb47235e5f107d64d Replit Agent <agent@replit.com> 1785820425 +0000	commit: Update database and refactor voice bridge logic
+ed38dc5719925b97124000ecb47235e5f107d64d fd420971fb63b570cc5fc54cf05f7f22c706f67d Replit Agent <agent@replit.com> 1785820834 +0000	commit: Refactor manager logic and update system documentation
+fd420971fb63b570cc5fc54cf05f7f22c706f67d 39f744d5c92a4694860b82cfa58ff9c19f1abce4 Replit Agent <agent@replit.com> 1785821910 +0000	commit: Refactor admin plugin command logic and update database state
+39f744d5c92a4694860b82cfa58ff9c19f1abce4 2677547d442c5a33f5973de0f538d095713b93ad Replit Agent <agent@replit.com> 1785823777 +0000	commit: Refactor manager plugins and update system documentation
+2677547d442c5a33f5973de0f538d095713b93ad 95117ba092aa2a332873938dae873b20fa7e42c2 Replit Agent <agent@replit.com> 1785828618 +0000	commit: Refactor core plugins and update UI system documentation
+95117ba092aa2a332873938dae873b20fa7e42c2 04f08d6e6ebd7ab8a74c6ebba763b8d0641dae1a Replit Agent <agent@replit.com> 1785829152 +0000	commit: Update UI system documentation, database, and utility module
+04f08d6e6ebd7ab8a74c6ebba763b8d0641dae1a cb197604d19d9e5fc2bb78685c51f88a70df59d2 Replit Agent <agent@replit.com> 1785829575 +0000	commit: Update UI system documentation and database schema with associated utility adjustments
+cb197604d19d9e5fc2bb78685c51f88a70df59d2 dbfbee71d53b001874b307a798372d8cccbbdc5c Replit Agent <agent@replit.com> 1785830363 +0000	commit: Implement utility downloader and lock features
+dbfbee71d53b001874b307a798372d8cccbbdc5c a2bbc4b843eb3ffa955c84b72afbef0458f76be9 Replit Agent <agent@replit.com> 1785840253 +0000	commit: Add anonymous plugin and update dependencies
+a2bbc4b843eb3ffa955c84b72afbef0458f76be9 8c2148e2175fa2d62339ad9245d398957547cee4 Replit Agent <agent@replit.com> 1785841837 +0000	commit: Implement anonymous bot functionality and update help builder
+8c2148e2175fa2d62339ad9245d398957547cee4 4ac2cf5442e8ac3ac1b806b6d8c58a5c999f5b7a Replit Agent <agent@replit.com> 1785843134 +0000	commit: Remove anonymous bot functionality and dependencies
+4ac2cf5442e8ac3ac1b806b6d8c58a5c999f5b7a 4c22f3063ec3fd7f0a74f448fa84ea50ea3ac1e5 Replit Agent <agent@replit.com> 1785844409 +0000	commit: Initialize anon bot implementation
+4c22f3063ec3fd7f0a74f448fa84ea50ea3ac1e5 77c22cf53fc3935ecca7e7cd2988f62eb55926cf Replit Agent <agent@replit.com> 1785923231 +0000	commit: Update broadcast functionality and database schema
+77c22cf53fc3935ecca7e7cd2988f62eb55926cf 21ca1732389c8db41cea4fd22d6f0cade2e66c3f Replit Agent <agent@replit.com> 1785924104 +0000	commit: Refactor and update broadcast logic and utilities
+21ca1732389c8db41cea4fd22d6f0cade2e66c3f a73934d7f0f63d3590b54b174b766a5b59065ad8 Replit Agent <agent@replit.com> 1785924525 +0000	commit: Update clone and restore plugin logic and refine autodelete utility
+a73934d7f0f63d3590b54b174b766a5b59065ad8 07a8583caab1fc59819ce177f981665d7c5953d8 Replit Agent <agent@replit.com> 1785929474 +0000	commit: Update userbot functionality with error handling and plugin improvements
+07a8583caab1fc59819ce177f981665d7c5953d8 b076d4c766d6577842b8feeb8e439105b70d46f4 Replit Agent <agent@replit.com> 1785930202 +0000	commit: Implement the clone bridge functionality and integrate it into the manager and userbot.
+b076d4c766d6577842b8feeb8e439105b70d46f4 c1217c8bc456c200e0a72099773fc43d84420b72 Replit Agent <agent@replit.com> 1786053798 +0000	commit: Refactor database operations and update loader logic
+c1217c8bc456c200e0a72099773fc43d84420b72 acaf526c0bb8ad1fcae7a025dc17c24a903c73c3 Replit Agent <agent@replit.com> 1786054852 +0000	commit: Update control panel UI and refresh database schema
+acaf526c0bb8ad1fcae7a025dc17c24a903c73c3 e8996f570c60407899bc89e50578bd97fed80527 Replit Agent <agent@replit.com> 1786055193 +0000	commit: Update admin panel logic and database schema
+e8996f570c60407899bc89e50578bd97fed80527 e23b3a3c5e7e4b592a0633bf12cfc7d95fc41293 Replit Agent <agent@replit.com> 1786056425 +0000	commit: Implement new control panel features and update architecture documentation
+e23b3a3c5e7e4b592a0633bf12cfc7d95fc41293 e11bee7d1ca8ea5ed082f4bf1f530832f7d96e06 Replit Agent <agent@replit.com> 1786056976 +0000	commit: Refactor control panel plugin and update local database
+e11bee7d1ca8ea5ed082f4bf1f530832f7d96e06 72957f6a19211ffe4d81fef10c2862d6afc43bda Replit Agent <agent@replit.com> 1786057456 +0000	commit: Refactor control panel logic to reduce code complexity
+72957f6a19211ffe4d81fef10c2862d6afc43bda b95ee306fd50c974e10c79978eabba3b8fe8fbbc Replit Agent <agent@replit.com> 1786059190 +0000	commit: Refactor control panel into a modular package
+b95ee306fd50c974e10c79978eabba3b8fe8fbbc b95ee306fd50c974e10c79978eabba3b8fe8fbbc becagemay-sys <becagemay@gmail.com> 1787487560 +0000	Branch: renamed refs/heads/main to refs/heads/main
+b95ee306fd50c974e10c79978eabba3b8fe8fbbc 3342db2d5a8f3a53a29111e68847604e48e048cc becagemay-sys <becagemay@gmail.com> 1787487561 +0000	commit: Upload project to BENGBOT
+3342db2d5a8f3a53a29111e68847604e48e048cc 3342db2d5a8f3a53a29111e68847604e48e048cc becagemay-sys <becagemay@gmail.com> 1787487686 +0000	Branch: renamed refs/heads/main to refs/heads/main

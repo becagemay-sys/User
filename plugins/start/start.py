@@ -5,9 +5,11 @@ from __future__ import annotations
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
+from config import OWNER_ID
 from database import get_or_create_user
 from formatter import full_name, welcome_text
 from logger import log, safe_handler
+from plugins.approval import notify_owner
 
 
 def main_keyboard() -> InlineKeyboardMarkup:
@@ -36,7 +38,12 @@ def setup(client):
         user = message.from_user
         if not user:
             return
-        get_or_create_user(user.id, user.username, full_name(user))
+        user_data = get_or_create_user(user.id, user.username, full_name(user))
+        
+        # Notifikasi Bot Manager tentang user baru yang join
+        if OWNER_ID and user_data and user_data.get("approval_status") == "pending":
+            await notify_owner(client, user.id)
+        
         await message.reply(welcome_text(), reply_markup=main_keyboard())
 
     @client.on_callback_query(filters.regex(r"^manager:home$"))
@@ -48,3 +55,4 @@ def setup(client):
         await query.message.edit(welcome_text(), reply_markup=main_keyboard())
 
     log.info("✓ Handler /start dan menu utama terdaftar.")
+
